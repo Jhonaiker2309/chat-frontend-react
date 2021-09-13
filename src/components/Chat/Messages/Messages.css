@@ -1,0 +1,49 @@
+.messages {
+  overflow: auto;
+  width: 100%;
+  display: flex;
+}
+
+.my-user{
+  color: white;
+  direction: rtl;
+  background: #2541B2;
+  margin-left: auto; 
+  margin-right: 0;
+  margin-bottom: 1rem;
+  line-height: 180%;
+  flex: 48%;
+  padding: 0.2rem;
+  width: max-content;
+  max-width: 48%;
+  font-family: 'Urbanist', sans-serif;
+  margin-bottom: 1rem;
+  border-radius: 10px;
+  font-size: medium;
+}
+
+.other-user{
+  text-align: left;
+  margin-bottom: 1rem;
+  line-height: 180%;
+  flex: 48%;
+  padding: 0.2rem;
+  width: max-content;
+  max-width: 48%;
+  font-family: 'Urbanist', sans-serif;
+  background-color: #DBE6FD;
+  margin-bottom: 1rem;
+  border-radius: 10px;
+  font-size: medium;
+  margin-left: 0.5rem
+}
+
+@media screen and (max-width: 800px) {
+  .my-user{
+  font-size: small;
+  }
+  .other-user{
+  font-size: small;
+  
+  }
+}

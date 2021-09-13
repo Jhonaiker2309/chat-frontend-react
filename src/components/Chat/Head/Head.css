@@ -1,0 +1,11 @@
+.head{
+    background: linear-gradient(to right, #0575e6, #021b79); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+    font-weight: 700;
+    font-family: 'Urbanist', sans-serif;
+    font-size: large;
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-left: 1rem
+}

@@ -1,0 +1,26 @@
+.body-of-chat{
+  padding: 0vh;
+  
+}
+
+.chat{
+  height: 100vh; 
+  position: relative;
+  width: 100%; 
+  background-color: #E8F0F2
+}
+
+
+.messages{
+position: absolute;
+top: 7vh;
+bottom: 10vh;
+width: 100%
+}
+
+.chat-button{
+  position: absolute;
+  bottom: 0rem;
+  width: 100%
+}
+

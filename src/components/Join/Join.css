@@ -1,0 +1,20 @@
+.join{
+  background-color: #E8F0F2;
+  height: 100vh;
+  position: relative;
+}
+
+.content{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%)
+}
+
+.inputs{
+ margin-bottom: 0.5rem ;
+}
+
+.buttons{
+  margin-left: 2.5rem
+}
